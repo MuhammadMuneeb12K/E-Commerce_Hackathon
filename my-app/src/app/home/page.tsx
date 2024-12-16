@@ -27,29 +27,24 @@ export default function Home() {
       </div>
     </div>
 
-    <div className='flex flex-col justify-center px-[48px] gap-y-[84px] pb-[56px]'>
+  <div className='flex flex-col justify-center px-[48px] gap-y-[84px] pb-[56px]'>
 
-      {/* Top Section */}
-
-      <div className=''>
+    <div className=''>
         <Image src={Image1} alt="" />
         <div className='flex flex-col pt-[48px]'>
-          <p className='typography3 '>First Look</p>
-          <h1 className='large-typography mt-[4px]'>Nike Air Max Pulse</h1>
-          <p className='typography4 mt-[24px]'>
+        <p className='typography3 '>First Look</p>
+           <h1 className='large-typography mt-[4px]'>Nike Air Max Pulse</h1>
+           <p className='typography4 mt-[24px]'>
           Extreme comfort. Hyper durable. Max volume. Introducing the Air Max Pulse <br />
           —designed to push you past your limits and help you go to the max.
-          </p>
+           </p>
           <div className='flex button-text gap-x-[6px] justify-center mt-[24px] pt-[6px]'>
             <button className='h-[39px] px-[22px] py-[7.5px] bg-[#111111] rounded-[30px]'>Notify Me</button>
             <button className='h-[39px] px-[22px] py-[7.5px] bg-[#111111] rounded-[30px]'>Shop Air Max</button>
+           </div>
           </div>
-        </div>
-      </div>
-
-      {/* Best of Air Max */}
-
-      <div className='flex flex-col gap-y-[12px]'>
+    </div>
+    <div className='flex flex-col gap-y-[12px]'>
       <div className='flex items-center justify-between'>
         <h1 className='typography5'>Best of Air Max</h1>
         <div className='flex items-center gap-x-[12.5px]'>
@@ -87,11 +82,8 @@ export default function Home() {
           <p className='typography9'>₹ 13 995</p>
         </div>
         </div>
-
+        </div>
       </div>
-      </div>
-
-      {/* Featured */}
 
       <div className='flex flex-col gap-y-[25px]'>
         <p className='typography10'>Featured</p>
@@ -104,18 +96,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      {/* Gear UP */}
-
-      <div className='flex flex-col gap-y-[25px]'>
+       <div className='flex flex-col gap-y-[25px]'>
       
         <div className='flex items-center justify-between'>
           <h1 className='typography10'>Gear Up</h1>
         </div>
-    
-        <div className='flex mb-[54px] gap-x-[66px]'>
-
-          {/* Left */}
+            <div className='flex mb-[54px] gap-x-[66px]'>
 
           <div className='flex flex-col gap-y-[12px]'>
 
@@ -145,10 +131,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          </div>
-
-          {/* Right */}
+      </div>
         
           <div className='flex flex-col gap-y-[12px]'>
 
@@ -183,8 +166,6 @@ export default function Home() {
         </div>
         
       </div>
-      
-      {/* Don't Miss */}
 
       <div>
         <div>
@@ -198,7 +179,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* The Essentials */}
+     
 
       <div className='flex flex-col gap-y-[25px]'>
         <h1 className='typography10'>The Essentials</h1>
@@ -218,13 +199,12 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Cetogaries */}
 
       <div className='flex justify-between w-[880px] self-center'>
 
         <div className='flex flex-col gap-y-[24px]'>
-          <h1 className='flex typography3 justify-start'>Icons</h1>
-          <div className='flex flex-col gap-y-[12px] typography18 '>
+            <h1 className='flex typography3 justify-start'>Icons</h1>
+           <div className='flex flex-col gap-y-[12px] typography18 '>
             <p>Air Force 1</p>
             <p>Huarache</p>
             <p>Air Max 90</p>
@@ -233,23 +213,22 @@ export default function Home() {
         </div>
 
         <div className='flex flex-col gap-y-[24px]'>
-          <h1 className='flex typography3 justify-start'>Shoes</h1>
-          <div className='flex flex-col gap-y-[12px] typography18 '>
-            <p>All Shoes</p>
-            <p>Custom Shoes</p>
-            <p>Jordan Shoes</p>
-            <p>Running Shoes</p>
-          </div>
-        </div>
-        
-        <div className='flex flex-col gap-y-[24px]'>
+            <h1 className='flex typography3 justify-start'>Shoes</h1>
+             <div className='flex flex-col gap-y-[12px] typography18 '>
+              <p>All Shoes</p>
+              <p>Custom Shoes</p>
+              <p>Jordan Shoes</p>
+              <p>Running Shoes</p>
+             </div>
+         </div>
+      <div className='flex flex-col gap-y-[24px]'>
           <h1 className='flex typography3 justify-start'>Clothing</h1>
           <div className='flex flex-col gap-y-[12px] typography18 '>
-            <p>All Clothing</p>
-            <p>Modest Wear</p>
-            <p>Hoodies & Pullovers</p>
-            <p>Shirts & Tops</p>
-          </div>
+               <p>Modest Wear</p>
+               <p>All Clothing</p>
+               <p>Hoodies & Pullovers</p>
+               <p>Shirts & Tops</p>
+         </div>
         </div>
 
         <div className='flex flex-col gap-y-[24px]'>
@@ -262,8 +241,6 @@ export default function Home() {
           </div>
 
         </div>
-        
-        
       </div>
 
     </div>
