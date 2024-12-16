@@ -19,9 +19,4 @@ export default function Product_Detail(){
         </div>
     )
 }
-// width: 653px;
-// height: 653px;
-// top: 110px;
-// left: -22px;
-// gap: 0px;
-// opacity: 0px;
+
